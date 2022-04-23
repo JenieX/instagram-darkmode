@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Instagram Native Dark Mode",
-    "description": "Forces Instagram.com to use its native Dark Mode via ?theme=dark. Not affiliated with Instagram or Meta.",
+    "name": "Native Instagram Dark Mode",
+    "description": "Forces instagram.com to use its native dark mode!",
     "version": "0.0.1",
     "icons": {
         "48": "icon48.png",
