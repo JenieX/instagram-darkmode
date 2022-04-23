@@ -1,0 +1,21 @@
+[{
+    "id": 6,
+    "priority": 1,
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "transform": {
+                "queryTransform": {
+                    "addOrReplaceParams": [{
+                        "key": "theme", 
+                        "value": "dark"
+                    }]
+                }
+            }
+        }
+    },
+    "condition": { 
+        "urlFilter": "||instagram.com", 
+        "resourceTypes": ["main_frame"]
+    }
+}]

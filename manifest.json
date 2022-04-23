@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Native Dark Mode",
+    "description": "Forces Instagram.com to use its native Dark Mode via ?theme=dark. Not affiliated with Instagram or Meta.",
+    "version": "0.0.1",
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "declarative_net_request" : {
+        "rule_resources" : [{
+          "id": "rules",
+          "enabled": true,
+          "path": "rules.json"
+        }]
+    },
+    "permissions": [
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+        "*://*.instagram.com/*"
+    ]
+}
